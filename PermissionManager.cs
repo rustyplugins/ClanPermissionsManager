@@ -1,5 +1,4 @@
-﻿using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
+﻿using Newtonsoft.Json.Linq;
 using Oxide.Core;
 using Oxide.Core.Plugins;
 using System.Collections.Generic;
@@ -108,7 +107,7 @@ namespace Oxide.Plugins
 
             if (clanMembers == null) return;
 
-            GetClanPermissions(clanTag)?.Update(clanMembers);//
+            GetClanPermissions(clanTag)?.Update(clanMembers);
         }
 
         void OnClanDestroy(string clanTag)
