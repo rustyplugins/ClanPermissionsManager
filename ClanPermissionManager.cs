@@ -6,16 +6,16 @@ using System.Linq;
 
 namespace Oxide.Plugins
 {
-    [Info("PermissionManager", "73CN0109y", 1.0)]
+    [Info("ClanPermissionManager", "73CN0109y", 1.0)]
     [Description("Allows the management of clan member permissions")]
-    public class PermissionManager : RustPlugin
+    public class ClanPermissionManager : RustPlugin
     {
         #region Variables
         [PluginReference]
         Plugin Clans;
 
         public StoredData storedData;
-        public static PermissionManager Instance;
+        public static ClanPermissionManager Instance;
         #endregion
 
         #region Oxide Hooks
