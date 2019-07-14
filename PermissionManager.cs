@@ -72,7 +72,7 @@ namespace Oxide.Plugins
                 ["PermissionRevokedToOther"] = "You no longer have the permission \"{0}\"",
                 ["PermissionRevokedToOtherAll"] = "You no longer have any permissions",
                 ["PermissionRevokedError"] = "Could not revoke the permission \"{0}\" from {1}!",
-                ["PermissionRevokedErrorAll"] = "Could not revoke all permissions to \"{1}\"",
+                ["PermissionRevokedErrorAll"] = "Could not revoke all permissions from \"{1}\"",
 
                 ["HelpError"] = "Permissions are only available to clans!",
                 ["Help"] = "Permission Commands:\n{0}\n{1}\n{2}",
