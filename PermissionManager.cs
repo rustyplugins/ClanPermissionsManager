@@ -7,7 +7,7 @@ using System.Linq;
 
 namespace Oxide.Plugins
 {
-    [Info("PermissionManager", "73CN0109y", 0.3)]
+    [Info("PermissionManager", "73CN0109y", 1.0)]
     [Description("Allows the management of clan member permissions")]
     public class PermissionManager : RustPlugin
     {
